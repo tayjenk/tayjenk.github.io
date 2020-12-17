@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tayla Jenkins - Resume 2020</title>
+    <style>
+      /*
+      should we use inline vs internal vs external styling?
+      linking?
+       */
+       #resume {
+         padding: 50px;
+       }
+       img {
+         height: 50px;
+       }
+       /* .headItems {
+         display: inline-block;
+       } */
+       #titleInfo {
+         display: inline-block;
+       }
+       #name {
+         margin-bottom: 0;
+       }
+       #currentTitle {
+         margin-top: 8px;
+       }
+       #contactInfo {
+         display: inline-block;
+         position: absolute;
+         right: 50px;
+       }
+       .contentTitle, .content {
+         display: inline-block;
+         width: 49%;
+       }
+       .contentTitle {
+         font-size: 25px;
+         font-style: italic;
+         margin: 0;
+       }
+       .content {
+         top: 0;
+         left: 75%
+       }
+       .lineDivider {
+         background-color: lightgray;
+         margin: 0 10px;
+         height: 1px;
+       }
+    </style>
+  </head>
+  <body>
+    <div id="resume">
+      <div id="headContainer">
+        <img src="https://icon-library.com/images/d0e0cd5a9f.svg.svg" alt="empty headshot">
+        <div id="titleInfo" class="headItems">
+          <h1 id="name">Tayla Jenkins</h1>
+          <p id="currentTitle">Front End Engineer</p>
+        </div>
+        <div id="contactInfo" class="headItems">
+          <!-- use icons? -->
+          <p>email: <a href="mailto:tayla@gmail.com">tayla@gmail.com</a></p>
+          <p>phone: <a href="tel:5555624878">555-562-4878</a></p>
+          <p><a href="https://www.linkedin.com">Connect on Linkedin!</a></p>
+        </div>
+      </div>
+      <hr>
+      <div id="contentContainer">
+        <!-- can we use semantic HTML here? section? -->
+        <section id="about" class="section">
+          <h4 class="contentTitle">About Me</h4>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, sapien eget aliquam lobortis, libero nulla sagittis nunc, vel aliquet odio tellus sed arcu. Integer id viverra mi. Vivamus in est bibendum, suscipit felis lobortis, suscipit erat. Etiam risus erat, facilisis ac sollicitudin a, lobortis eget est. Nulla id diam sit amet sapien efficitur faucibus sed ut libero.</p>
+          </div>
+        </section>
+        <div class="lineDivider"></div>
+        <div id="skills" class="section">
+          <h4 class="contentTitle">Skills</h4>
+          <div class="content">
+            <ul>
+              <li>skill 1</li>
+              <li>skill 2</li>
+              <li>skill 3</li>
+              <li>skill 4</li>
+              <li>skill 5</li>
+              <li>skill 6</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lineDivider"></div>
+        <div id="experience" class="section">
+          <h4 class="contentTitle">Experience</h4>
+          <div class="content">
+            <h4 class="contentHeadline">JOB TITLE</h4>
+            <p class="datesActive">START DATE to END DATE</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo lorem, volutpat sit amet mauris nec, consequat viverra arcu. Pellentesque quis turpis at magna feugiat lacinia quis vitae ante.</p>
+          </div>
+        </div>
+        <div class="lineDivider"></div>
+        <div id="education" class="section">
+          <h4 class="contentTitle">Education</h4>
+          <div class="content">
+            <h4 class="contentHeadline">SCHOOL NAME</h4>
+            <p class="datesActive">START DATE to END DATE</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo lorem, volutpat sit amet mauris nec, consequat viverra arcu. Pellentesque quis turpis at magna feugiat lacinia quis vitae ante.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
